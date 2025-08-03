@@ -3,7 +3,7 @@ import 'package:my_expenses/core/ui/resources/app_colors.dart';
 
 class AppTheme {
   static ThemeData baseTheme = ThemeData(
-    scaffoldBackgroundColor: AppColors.backgroundColor,
+    useMaterial3: true,
     appBarTheme: AppBarTheme(
       backgroundColor: AppColors.backgroundColor,
       iconTheme: const IconThemeData(color: Colors.white),
